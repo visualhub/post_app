@@ -3,8 +3,6 @@ import 'package:get/get.dart';
 import 'package:post_app/app/modules/forget_password/page/forget_password.dart';
 import 'package:post_app/app/modules/log_in/controllers/log_in_controller.dart';
 import 'package:post_app/app/modules/log_in/views/login_form_view.dart';
-import 'package:post_app/app/modules/posts/pages/post_page.dart';
-import 'package:post_app/app/modules/sign_up/pages/sign_up.dart';
 import 'package:post_app/app/widgets/auth_footer_widget.dart';
 import 'package:post_app/app/widgets/auth_header_widget.dart';
 import 'package:post_app/global/constants/image_strings.dart';

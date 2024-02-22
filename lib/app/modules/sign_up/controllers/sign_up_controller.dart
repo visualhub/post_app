@@ -35,7 +35,7 @@ class SignupPageController extends GetxController {
       data.userID = user.uid;
       UserQueries.createUser(data);
 
-      Get.toNamed(Routes.posts);
+      Get.toNamed(Routes.homePosts);
     } catch (e) {
       Get.snackbar('Error', e.toString());
     }

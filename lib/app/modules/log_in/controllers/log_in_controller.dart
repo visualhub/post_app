@@ -39,7 +39,7 @@ class LoginPageController extends GetxController {
     try {
       await Get.find<AuthController>()
           .signInUserWithEmail(emailAddress, password);
-      Get.toNamed(Routes.posts);
+      Get.toNamed(Routes.homePosts);
     } catch (e) {
       Get.snackbar("error", e.toString());
     }
