@@ -7,9 +7,13 @@ class TextFormFieldModel {
     this.labelText,
     this.prefixIcon,
     this.suffixIcon,
+    this.controller,
+    this.validator,
   });
   String? hintText, labelText;
   Icon? prefixIcon;
   IconButton? suffixIcon;
   TextInputType? keyboardType;
+  TextEditingController? controller;
+  String? Function(String?)? validator;
 }
